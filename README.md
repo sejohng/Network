@@ -3,4 +3,3 @@ Server.java implements a multithreaded server for handling multiple client conne
 
 Client.java implements client logic for connecting to the server and sending and receiving messages. The client establishes a connection with the server through Socket and communicates with the server using input and output streams.
 There are two main threads: one that reads the user’s input and sends it to the server, and the other that continuously receives messages from the server and prints them to the console. In order to achieve real-time user interaction, the client does not need to wait for the server's response before sending a message to the server.
-![image](https://github.com/sejohng/Socket-Programming/assets/35053995/ace96769-b0fe-47d6-952c-1a8a65a536d2)
